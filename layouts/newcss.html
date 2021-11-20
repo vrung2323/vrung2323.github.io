@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <meta name="description" content="">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
     <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 </head>
 <body>
-    <header><h1>My Website</h1></header>
-    
+    <header><h1>{{ site.title }}</h1></header>
+    {{ content }}
 </body>
 </html>
