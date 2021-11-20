@@ -1,3 +1,7 @@
+---
+layout: newcss
+---
+
 # Hello World
 
 Here's my todo list:
